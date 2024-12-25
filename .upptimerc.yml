@@ -4,11 +4,18 @@ repo: upptime
 sites:
   - name: Skin Station
     url: https://account.teamhyena.org
+  - name: Gateway (NA)
+    check: "tcp-ping"
+    url: mc-na.teamhyena.org
+    port: 25577
+  - name: Gatewat (CS)
+    check: "tcp-ping"
+    url: mc-cs.teamhyena.org
+    port: 25577
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   theme: ocean
@@ -16,8 +23,10 @@ status-website:
   introTitle: "**HyenaMC Status Page**"
   introMessage: This page monitors services and gateways offered by HyenaMC in real time, powered by Upptime and Github Actions. If you have trouble loading the content below, visit the Repo for raw data instead.
   navbar:
-    - title: GitHub
+    - title: GitHub Repo
       href: https://github.com/$OWNER/$REPO
+    - title: Skin Station
+      href: https://account.teamhyena.org
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
