@@ -22,9 +22,9 @@
     "url": "mc-na.teamhyena.org",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gateway-na",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,14 +33,16 @@
     "timeWeek": 38,
     "timeMonth": 29,
     "timeYear": 29,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-01-04": 0
+    }
   },
   {
     "name": "Gateway (CS)",
     "url": "mc-cs.teamhyena.org",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gateway-cs",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -51,6 +53,8 @@
     "timeWeek": 270,
     "timeMonth": 269,
     "timeYear": 269,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-01-04": 0
+    }
   }
 ]
