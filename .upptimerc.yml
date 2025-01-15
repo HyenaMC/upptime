@@ -12,6 +12,19 @@ sites:
     check: "tcp-ping"
     url: mc-cs.teamhyena.org
     port: 25577
+  - name: Gateway (TS)
+    check: "tcp-ping"
+    url: mc-ts.teamhyena.org
+    port: 25577
+
+workflowSchedule:
+  graphs: "*/5 * * * *"
+  responseTime: "*/5 * * * *"
+  staticSite: "*/5 * * * *"
+  summary: "*/5 * * * *"
+  updateTemplate: "*/5 * * * *"
+  updates: "*/5 * * * *"
+  uptime: "*/5 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -23,7 +36,7 @@ status-website:
   introTitle: "**HyenaMC Status Page**"
   introMessage: This page monitors services and gateways offered by HyenaMC in real time, powered by Upptime and Github Actions. If you have trouble loading the content below, visit the Repo for raw data instead.
   navbar:
-    - title: GitHub Repo
+    - title: Github Repo
       href: https://github.com/$OWNER/$REPO
     - title: Skin Station
       href: https://account.teamhyena.org
