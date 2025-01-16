@@ -12,6 +12,10 @@ sites:
     check: "tcp-ping"
     url: mc-cs.teamhyena.org
     port: 25577
+  - name: Gateway (JP)
+  check: "tcp-ping"
+  url: mc-jp.teamhyena.org
+  port: 25577
 
 workflowSchedule:
   graphs: "*/5 * * * *"
