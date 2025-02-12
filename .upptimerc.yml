@@ -45,6 +45,7 @@ status-website:
   name: HyenaMC Status Page
   introTitle: "**HyenaMC Status Page**"
   introMessage: This page monitors services and gateways offered by HyenaMC in real time, powered by Upptime and Github Actions. If you have trouble loading the content below, visit the Repo for raw data instead.
+  userContentBaseUrl: https://raw.gitmirror.com
   navbar:
     - title: Github Repo
       href: https://github.com/$OWNER/$REPO
