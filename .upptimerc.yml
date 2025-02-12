@@ -42,7 +42,7 @@ status-website:
   baseUrl: /upptime
   cname: https://status.teamhyena.org
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  themeUrl: https://raw.githubusercontent.com/HyenaMC/upptime/refs/heads/gh-pages/themes/ocean.css
+  theme: ocean
   name: HyenaMC Status Page
   introTitle: "**HyenaMC Status Page**"
   introMessage: This page monitors services and gateways offered by HyenaMC in real time, powered by Upptime and Github Actions. If you have trouble loading the content below, visit the Repo for raw data instead.
