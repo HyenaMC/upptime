@@ -31,18 +31,20 @@
     "url": "https://minecraft.teamhyena.org",
     "icon": "https://icons.duckduckgo.com/ip3/minecraft.teamhyena.org.ico",
     "slug": "official-website",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 907,
-    "timeDay": 907,
-    "timeWeek": 907,
-    "timeMonth": 907,
-    "timeYear": 907,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.93%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.93%",
+    "time": 882,
+    "timeDay": 882,
+    "timeWeek": 882,
+    "timeMonth": 882,
+    "timeYear": 882,
+    "dailyMinutesDown": {
+      "2025-02-12": 0
+    }
   },
   {
     "name": "Gateway (NA)",
