@@ -4,6 +4,8 @@ repo: upptime
 sites:
   - name: Skin Station
     url: https://account.teamhyena.org
+  - name: Official Website
+    url: https://minecraft.teamhyena.org
   - name: Gateway (NA)
     check: "tcp-ping"
     url: mc-na.teamhyena.org
@@ -12,24 +14,32 @@ sites:
     check: "tcp-ping"
     url: mc-cs.teamhyena.org
     port: 25577
-  - name: Gateway (JP)
+  - name: Gateway (LA)
     check: "tcp-ping"
-    url: mc-jp.teamhyena.org
+    url: mc-la.teamhyena.org
     port: 25577
+  - name: Gateway (SF)
+    check: "tcp-ping"
+    url: mc-sf.teamhyena.org
+    port: 25577
+  - name: Gateway (TS)
+    url: mc-ts.teamhyena.org
+  - name: Gateway (NP)
+    url: mc-np.teamhyena.org
 
 workflowSchedule:
-  graphs: "*/5 * * * *"
-  responseTime: "*/5 * * * *"
-  staticSite: "*/5 * * * *"
-  summary: "*/5 * * * *"
-  updateTemplate: "*/5 * * * *"
-  updates: "*/5 * * * *"
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
   uptime: "*/5 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  baseUrl: /upptime
+  cname: status.teamhyena.org
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   theme: ocean
   name: HyenaMC Status Page
