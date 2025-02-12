@@ -50,6 +50,8 @@ status-website:
       href: https://github.com/$OWNER/$REPO
     - title: Skin Station
       href: https://account.teamhyena.org
+    - title: Official Website
+      href: https://minecraft.teamhyena.org
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
