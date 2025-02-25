@@ -146,19 +146,19 @@
     "url": "mc-ts.teamhyena.org",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gateway-ts",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 707,
-    "timeDay": 809,
-    "timeWeek": 737,
-    "timeMonth": 707,
-    "timeYear": 707,
+    "status": "up",
+    "uptime": "99.86%",
+    "uptimeDay": "98.18%",
+    "uptimeWeek": "99.74%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.86%",
+    "time": 1213,
+    "timeDay": 5158,
+    "timeWeek": 2195,
+    "timeMonth": 1213,
+    "timeYear": 1213,
     "dailyMinutesDown": {
-      "2025-02-25": 0
+      "2025-02-25": 26
     }
   },
   {
