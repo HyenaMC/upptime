@@ -1,7 +1,7 @@
 url: https://account.teamhyena.org
-status: up
-code: 200
-responseTime: 791
-lastUpdated: 2025-03-17T05:55:34.405Z
+status: down
+code: 403
+responseTime: 784
+lastUpdated: 2025-03-17T06:49:31.014Z
 startTime: 2024-12-25T00:49:17.544Z
 generator: Upptime <https://github.com/upptime/upptime>
